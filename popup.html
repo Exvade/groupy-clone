@@ -3,13 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Insert Canva Cookie</title>
+  <title>Cookie Inserter</title>
 </head>
 <body>
-  <!-- Gantikan tombol biasa dengan gambar -->
-<button id="insert-cookie-btn">
-  <img src="icons/icon.png" alt="Insert Cookies" width="30" height="30" />
-</button>
+  <h3>Choose a service to insert cookies:</h3>
+
+  <!-- Tombol untuk Canva -->
+  <button class="cookie-btn" data-service="canva">
+    <img src="icons/icon.png" alt="Canva" width="30" height="30">
+  </button>
+
+  <!-- Tombol untuk ChatGPT -->
+  <button class="cookie-btn" data-service="chatgpt">
+    <img src="https://images.seeklogo.com/logo-png/46/1/chatgpt-logo-png_seeklogo-465219.png?v=1957908208492003472" alt="ChatGPT" width="30" height="30">
+  </button>
+
+  <!-- 7 Tombol untuk Netflix dengan file berbeda -->
+  <button class="cookie-btn" data-service="netflix1">
+    <img src="https://w7.pngwing.com/pngs/746/404/png-transparent-netflix-thumbnail.png" alt="Netflix" width="30" height="30">
+  </button>
+  <!-- <button class="cookie-btn" data-service="netflix2">Netflix 2</button>
+  <button class="cookie-btn" data-service="netflix3">Netflix 3</button>
+  <button class="cookie-btn" data-service="netflix4">Netflix 4</button>
+  <button class="cookie-btn" data-service="netflix5">Netflix 5</button>
+  <button class="cookie-btn" data-service="netflix6">Netflix 6</button>
+  <button class="cookie-btn" data-service="netflix7">Netflix 7</button> -->
 
   <script src="popup.js"></script>
 </body>

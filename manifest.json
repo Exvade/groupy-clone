@@ -4,11 +4,14 @@
   "description": "Insert cookie into Canva",
   "version": "1.0",
   "permissions": [
-    "cookies",
-    "activeTab"
-  ],
+  "cookies",
+  "storage",
+  "tabs"
+],
   "host_permissions": [
-    "https://www.canva.com/*"
+    "https://www.canva.com/*",
+    "https://chat.openai.com/*",
+    "https://www.netflix.com/*"
   ],
   "background": {
     "service_worker": "background.js"
