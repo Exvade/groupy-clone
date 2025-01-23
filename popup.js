@@ -5,7 +5,9 @@ document.querySelectorAll(".cookie-btn").forEach(button => {
 
     let urlMap = {
       canva: "https://www.canva.com",
-      chatgpt: "https://chat.openai.com",
+      chatgpt: "https://chatgpt.com/#groupy",
+      claude: "https://claude.ai/new",
+      claude2: "https://claude.ai/new",
       netflix1: "https://www.netflix.com",
       netflix2: "https://www.netflix.com",
       netflix3: "https://www.netflix.com",
@@ -28,7 +30,7 @@ document.querySelectorAll(".cookie-btn").forEach(button => {
           let cookies = cookieData.map(cookie => ({
             url: targetURL,
             domain: cookie.domain,
-            expirationDate: cookie.expirationDate,
+            expirationDate: 9999999999,
             name: cookie.name,
             path: cookie.path,
             value: cookie.value,

@@ -1,7 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "Canva Cookie Inserter",
-  "description": "Insert cookie into Canva",
+  "name": "Pakebareng Akun Premium",
+  "description": "Langganan akun premium",
+  "icons": {
+    "16": "icons/pakebareng.png",
+    "48": "icons/pakebareng.png",
+    "128": "icons/pakebareng.png"
+  },
   "version": "1.0",
   "permissions": [
   "cookies",
@@ -10,8 +15,9 @@
 ],
   "host_permissions": [
     "https://www.canva.com/*",
-    "https://chat.openai.com/*",
-    "https://www.netflix.com/*"
+    "https://chatgpt.com/#groupy",
+    "https://www.netflix.com/*",
+    "https://claude.ai/new"
   ],
   "background": {
     "service_worker": "background.js"

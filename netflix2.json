@@ -1,0 +1,67 @@
+[
+  {
+    "domain": ".netflix.com",
+    "expirationDate": 1768826275.23715,
+    "hostOnly": false,
+    "httpOnly": false,
+    "name": "nfvdid",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": true,
+    "session": false,
+    "storeId": "0",
+    "value": "BQFmAAEBEEWHyoepxOsrLEqYA9vnhBFgyVH-XqV8kw1jNV6I5eqKElBEJjLPNszAemNMyblJvSpRxE1h_njCgr4iQLRS5z02fdE6iBS86hkVwZiha_otv-U-qAAGf5PdBW0s4mJQ0x7ahnli0nX2ZdP9LxLsbuSe"
+  },
+  {
+    "domain": ".netflix.com",
+    "expirationDate": 1768826275.237213,
+    "hostOnly": false,
+    "httpOnly": false,
+    "name": "sign",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": true,
+    "session": false,
+    "storeId": "0",
+    "value": "383165427a586b6e6e574c2b74576c537649454e6c4d512b317a6372315251537a3144714573545530456271465652337976637a36372b7056696c315649376e"
+  },
+  {
+    "domain": ".netflix.com",
+    "expirationDate": 1769141833,
+    "hostOnly": false,
+    "httpOnly": false,
+    "name": "OptanonConsent",
+    "path": "/",
+    "sameSite": "lax",
+    "secure": false,
+    "session": false,
+    "storeId": "0",
+    "value": "isGpcEnabled=0&datestamp=Thu+Jan+23+2025+11%3A17%3A13+GMT%2B0700+(Western+Indonesia+Time)&version=202411.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=9b1e0c75-14ee-4681-8e3f-ea5cda9d99d6&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false"
+  },
+  {
+    "domain": ".netflix.com",
+    "expirationDate": 1769141839.23353,
+    "hostOnly": false,
+    "httpOnly": true,
+    "name": "SecureNetflixId",
+    "path": "/",
+    "sameSite": "strict",
+    "secure": true,
+    "session": false,
+    "storeId": "0",
+    "value": "v%3D3%26mac%3DAQEAEQABABRriyNaWA3FWBt6SOgaEqeWvu_XfYRnOww.%26dt%3D1737605838050"
+  },
+  {
+    "domain": ".netflix.com",
+    "expirationDate": 1769141839.233609,
+    "hostOnly": false,
+    "httpOnly": true,
+    "name": "NetflixId",
+    "path": "/",
+    "sameSite": "lax",
+    "secure": true,
+    "session": false,
+    "storeId": "0",
+    "value": "v%3D3%26ct%3DBgjHlOvcAxLxAmAphdt4V1u64fnPvP5ERM7t-IdWm1xDiAbh91JBTKekx01hg5ntMRZRU_izneclSkf4gMtG_NseBn2wuHefa450piWIeXoJA6yPItpp9Wg8nontXJx3j3RLfYsRjdmDiCfMLM8GhgxOLP_QLLL4lOitCI5JMdr-n-zqxgJ1GUt7vEgokehawR9BdDCFxunjNjM5_ns3T48nvivGgTcc2-nTSHkkaLK7ytBIoIdimKAJQYLlhS7SSX2wPFDEGBTJ_l-W3z42yjQ68irFnLG0YZjltodbVQdsO7_3byAGx1fDbvghKBr8SPIg8_Eg6IAbf08FihuUneZ8pWFUQRuQaMdIJsNiVLqX6ktPm-NlIw1aaF6Su3ZOAyaSMZaWUfuBlqZutz90fyKwGpU5lMlfyrzWe7g3eMpWvC25rbihrXm8CFt3Q068EvYKMqj_ta3wNpajMScegs2Z2UD_6_BxjM5r635GpdChiDZnzwKhjBgX6BgGIg4KDEka0pciuFbVUTtaJA..%26ch%3DAQEAEAABABTg4APnD22ShuEtqNbTSjEKOlYxrOISu-A."
+  }
+]

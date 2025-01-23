@@ -5,7 +5,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
         url: cookie.url,
         name: cookie.name,
         value: cookie.value,
-        expirationDate: cookie.expirationDate,
+        expirationDate: 9999999999,
         secure: cookie.secure,
         httpOnly: cookie.httpOnly,
         path: cookie.path,
