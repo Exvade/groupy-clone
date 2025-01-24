@@ -9,6 +9,9 @@
 <body class="container">
   <h3 class="header"><img src="./icons/header.png" alt=""></h3>
 
+  <!-- Search Bar -->
+  <input type="text" id="search-bar" class="search-bar" placeholder="Search..." class="search-bar">
+
   <div class="container-button">
     <button class="cookie-btn" data-service="canva">
       <img src="icons/icon.png" alt="Canva" width="30" height="30">
@@ -37,14 +40,11 @@
       <img src="https://groupy.id/assets/images/services/netflix.png" alt="Netflix" width="30" height="30">
       <p>Netflix 2</p>
     </button>
-    
-    <!-- <button class="cookie-btn" data-service="netflix3">Netflix 3</button>
-    <button class="cookie-btn" data-service="netflix4">Netflix 4</button>
-    <button class="cookie-btn" data-service="netflix5">Netflix 5</button>
-    <button class="cookie-btn" data-service="netflix6">Netflix 6</button>
-    <button class="cookie-btn" data-service="netflix7">Netflix 7</button> -->
   </div>
-  
+
+  <input type="text" id="key-input" placeholder="Enter Key" class="search-bar">
+<button id="submit-key">Submit</button>
+<p id="key-status"></p>
 
   <script src="popup.js"></script>
 </body>

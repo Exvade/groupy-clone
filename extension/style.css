@@ -5,7 +5,8 @@
 }
 
 .container {
-  width: 400px;
+  width: 420px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   background-color: black
@@ -22,26 +23,44 @@
   height: 40px;
 }
 
+.search-bar{
+  width:80%;
+  margin: 0px auto 20px auto;
+  height: 30px;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid green;
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+
 .container-button {
+  height: 100%;
+  overflow-y: scroll;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
   background-color: transparent;
   justify-content: start;
-  align-items: center;
+  align-items: start;
   padding: 0px 30px 30px;
 }
 
-.cookie-btn{
+.container-button button{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-grow: 0;
   align-items: center;
   background-color: transparent;
   outline: none;
   border: none;
   gap: 8px;
+}
+
+.cookie-btn:hover{
+  cursor: pointer;
 }
 
 .cookie-btn img {
